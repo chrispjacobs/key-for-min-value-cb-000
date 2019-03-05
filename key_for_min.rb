@@ -6,7 +6,7 @@ def key_for_min_value(name_hash)
   winning_key = "loser"
   if name_hash.class != Hash
     winning_key = nil
-  elsif name_hash == Hash && name_hash.empty?
+  elsif name_hash.class == Hash && name_hash.empty?
     winning_key = nil
   else
     name_hash.each do |key, value|
