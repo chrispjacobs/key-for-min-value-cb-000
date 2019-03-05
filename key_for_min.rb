@@ -16,3 +16,7 @@ def key_for_min_value(name_hash)
   end
 winning_key
 end
+
+test_hash = Hash.new
+
+puts key_for_min_value(test_hash)
