@@ -10,8 +10,6 @@ def key_for_min_value(name_hash)
     elsif value < winning_value
       winning_value = value
       winning_key = key
-    elsif value == winning_value
-      nil
     end
   end
 winning_key
